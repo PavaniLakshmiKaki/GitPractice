@@ -1,0 +1,20 @@
+git init: initialises git, creates a .git file which tracks the changes of added files in the folder,
+            it won't be visible in file explorer as it is hidden file, do ls -a in terminal, it will be
+            visible.
+
+git add file_name: adds the file to the git (staging area)
+git add . : if u specify . then all files will be added to git
+
+git status: shows status of file (red colour: not added to git (we can add it using git add file_name),
+            green color: file is added to git)
+
+git commit -m "message": use to commit the changes, message is imp to specify as they denote logs/changes
+                        of what we have made.
+
+git log: shows the commit logs
+
+git checkout file_name: used to revert back to the original file if we mess up the code.
+
+git diff file_name: gives the diff blw last commit and last modified changes
+
+git rm --cached -r . : to remove files from staging area which are already adde/present
